@@ -60,6 +60,7 @@ const About = () => {
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up"
         >
+          {/*  */}
           <SectionSentence
             badge="OUR TEAMS"
             title="Meet the team! All creative people are here"
