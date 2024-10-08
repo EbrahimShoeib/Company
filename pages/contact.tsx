@@ -22,12 +22,12 @@ const Contact = () => {
             <div className="space-y-6">
               <IconListItem
                 label="Phone"
-                value="+62 1234 8921"
+                value="+201271138683"
                 icon={<FiPhoneCall />}
               />
               <IconListItem
                 label="Email"
-                value="support@collosal.tld"
+                value="ibrahimshoeib255@gmail.com"
                 icon={<FiMail />}
               />
             </div>
@@ -40,7 +40,7 @@ const Contact = () => {
               </div>
               <InputGroup label="Subject" />
               <TextAreaGroup label="Message" />
-              <Button value="Send Message" />
+              <Button value="Send Message"  />
             </div>
           </aside>
         </section>

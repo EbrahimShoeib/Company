@@ -12,7 +12,7 @@ const Button = forwardRef(
   (
     {
       value,
-      onClick = () => {},
+      onClick = () => { console.log("clicked details");},
       size = 'normal',
       style = 'solid',
       color = 'primary',

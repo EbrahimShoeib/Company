@@ -14,20 +14,32 @@ const Project = () => {
   }
   const projectList: Project[] = [
     {
-      title: 'The Mobile App Landing Page',
-      description: 'A landing page for mobile app',
+      title: 'The Mobile App E-commerce',
+      description: 'E-commerce for mobile app',
     },
     {
-      title: 'The Desktop App Landing Page',
-      description: 'A landing page for desktop app',
+      title: 'The  Mobile App Live Streem ',
+      description: 'Hulk live Streem for Mobile App',
     },
     {
-      title: 'Simple Mobile Blog App',
-      description: 'A blog app on mobile platform',
+      title: 'The  Mobile App search job',
+      description: 'A Mobile App To Get job',
     },
     {
-      title: 'Realtime Chat App UI Design',
+      title: 'Faria Website',
+      description: 'A website App',
+    },
+    {
+      title: '(investing in real-state) seamless',
       description: 'A UI design for realtime chat app',
+    },
+    {
+      title: 'Saifi Stable',
+      description: 'A website App',
+    },
+    {
+      title: 'jobque (job finder)',
+      description: 'A website App',
     },
   ]
   return (
@@ -48,6 +60,7 @@ const Project = () => {
           <Select
             options={[
               { label: 'App', value: 'app' },
+              { label: 'Website ', value: 'Website' },
               { label: 'UI Design', value: 'ui-design' },
               { label: 'Other', value: 'other' },
             ]}

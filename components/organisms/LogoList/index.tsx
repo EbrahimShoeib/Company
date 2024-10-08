@@ -22,7 +22,7 @@ const LogoList = () => {
             alt="forbes logo"
           />
         </div>
-        <div className="">
+        <div className=""> 
           <Image
             src={'/images/google-logo.svg'}
             width={120}

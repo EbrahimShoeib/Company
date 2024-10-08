@@ -22,7 +22,7 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="We Design. We Develop. We Ship. In The Same Day."
+              title="Get Your App Live In 4 Weeks"
               description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
               badge="CLIENT-DEVELOPMENT-DRIVEN"
             />
@@ -39,6 +39,7 @@ const Home = () => {
         </section>
         {/* Feature List */}
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
+      
           <div data-aos="fade-up">
             <FeatureCard
               title="Design"
@@ -156,37 +157,50 @@ const Home = () => {
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
             <div data-aos="fade-up-right">
               <PricingCard
-                price="1200$"
-                title="UI Design"
+                price="$2000"
+                title="Startup Package"
                 features={[
-                  '10 design pages',
-                  'Well-documented',
-                  '4 revisions',
-                  '$100/additional page',
+                  '- Custom mobile app or website development',
+                  '- Up to 2 revisions',
+                  '- Basic features & design',
+                  '- 2-4 weeks delivery time',
+                  '- 2 weeks of post-launch support',
+                  '- Basic SEO optimization',
                 ]}
               />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
-              <PricingCard
-                price="5000$"
-                title="Development"
+            <PricingCard
+                price="$15,000+"
+                title="Enterprise Package"
                 features={[
-                  'Web & Mobile',
-                  'Well-documented',
-                  '8 revisions',
-                  '$1000/additional page',
+                  '- Custom mobile app, platform, or e-commerce solution Advanced features (e.g., machine learning, AI, analytics)',
+                  '- Unlimited revisions within scope',
+                  '- Extensive API integrations & cloud infrastructure setup',
+                  '- 3-6 months development time',
+                  '- 6+ months of post-launch support & maintenance',
+                  '- Comprehensive SEO & performance optimization',
+                  '- Custom hosting & cloud infrastructure setup',
+
                 ]}
+
+                
               />
             </div>
             <div data-aos="fade-up-left">
-              <PricingCard
-                price="3000$"
-                title="Maintenance"
+              
+
+            <PricingCard
+                price="$5000"
+                title="Growth Package"
                 features={[
-                  'Daily backup',
-                  '3 hours of maintenance',
-                  'Including fixing',
-                  '$50/additional hour',
+                  '- Full-featured custom mobile app or website API integration (e.g., payment gateways, CRM)',
+                  '- Custom UI/UX design',
+                  '- Up to 4 revisions',
+                  '- 1-2 months development time',
+                  '- 1-2 months of post-launch support',
+                  '- SEO & performance optimization',
+                  'Hosting setup'
                 ]}
               />
             </div>

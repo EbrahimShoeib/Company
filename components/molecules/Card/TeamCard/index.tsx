@@ -13,14 +13,14 @@ const TeamCard = ({ imageSrc, job, name }: TeamCardProps) => {
     if (container.current?.clientWidth !== undefined) {
       setImageSize({
         width: container.current?.clientWidth,
-        height: container.current?.clientWidth * 1.1,
+        height: container.current?.clientWidth  ,
       })
     }
     window.addEventListener('resize', () => {
       if (container.current?.clientWidth !== undefined) {
         setImageSize({
           width: container.current?.clientWidth,
-          height: container.current?.clientWidth * 1.085,
+          height: container.current?.clientWidth ,
         })
       }
     })

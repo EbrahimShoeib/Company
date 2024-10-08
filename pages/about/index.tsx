@@ -15,12 +15,12 @@ const About = () => {
         <aside className="w-full" data-aos="fade-down-right">
           <div className="w-full h-[480px] relative">
             <Image
-              src={'/images/about-illustration.webp'}
+              src={'/images/whitelogo.webp'}
               layout="fill"
               objectFit="contain"
               quality={80}
               alt="Programmers when coding in their laptop"
-              
+              className='rounded-3xl'
             />
           </div>
         </aside>
@@ -28,10 +28,11 @@ const About = () => {
           className="text-center sm:w-10/12 md:w-8/12 lg:w-full lg:text-left"
           data-aos="fade-up-left"
         >
+          {/* About section to description Our Compony */}
           <PageSentence
             badge="ABOUT"
             title="We are creative, smart and hardworking people"
-            description={`Several creative people gather in the same place - that's Collosal. We collaborate to produce the best results, loved by clients and comfortable for users. Here we maintain togetherness even though with different backgrounds, all the people here are already experts in their respective fields.`}
+            description={`Codex Tech is an online programming company currently being established. It specializes in creating websites, mobile applications, and Web 3.0 technology. We have worked with several clients both inside and outside Egypt and are looking forward to launching our official website soon.`}
           />
         </aside>
       </section>
@@ -41,6 +42,7 @@ const About = () => {
           className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center"
           data-aos="zoom-in-up"
         >
+          {/* Section which description  */}
           <SectionSentence
             badge="STATISTICS"
             title="In 3 years we reached 8 countries, 193 clients and earning $100k USD"
@@ -63,49 +65,50 @@ const About = () => {
             title="Meet the team! All creative people are here"
           />
         </div>
+        {/* Team images  */}
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-1.webp"
-              job="Founder"
-              name="Albert Flores"
+              imageSrc="/images/IbrahimShoeib.webp"
+              job="Project Manager"
+              name="Ibrahum Shoeib "
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-2.webp"
-              job="Chief Technology Officer"
-              name="Devon Lane"
+              imageSrc="/images/RashadSeada.webp"
+              job="Team Leader"
+              name="Rashad Seada"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-3.webp"
-              job="UI Designer"
-              name="Darrell Steward"
+              imageSrc="/images/codex.PNG"
+              job="Mern Stack Dev"
+              name="Zeyad Atef"
             />
           </div>
-          <div data-aos="fade-up">
+          {/* <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-4.webp"
+              imageSrc="/images/codex.PNG"
               job="Software Engineer"
               name="Marvin McKinney"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-5.webp"
+              imageSrc="/images/codex.PNG"
               job="System Analyst"
               name="Floyd Miles"
             />
           </div>
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/team-6.webp"
+              imageSrc="/images/codex.PNG"
               job="Project Manager"
               name="Annette Black"
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </PageTemplate>

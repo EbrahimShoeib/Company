@@ -6,7 +6,7 @@ import ProjectCard from 'components/molecules/Card/ProjectCard'
 import PageTemplate from 'components/templates/PageTemplate'
 import React from 'react'
 import randomString from 'utils/randomString'
-
+// import { description } from '../description'
 const ProjectDetail = () => {
   interface Project {
     title: string
@@ -40,8 +40,7 @@ const ProjectDetail = () => {
         <aside className="grid gap-12 place-content-center" data-aos="fade-up-left">
           <Text
             textStyle="SectionParagraph"
-            value="Something has always existed. According to physics, there can never be true physical nothingness—though there can be times when existence resembles nothing."
-          />
+            value= "I developed an innovative software platform using modern technologies such as Node.js and React.js, in addition to blockchain technology. The project aims to streamline the process of submitting bids for tenders and improve the overall efficiency of the process The platform allows companies, suppliers, and contractors to register on the network and submit bids and tenders in a transparent and secure manner using blockchain technology. It offers a simple and smooth user interface, enabling users to create accounts and submit bids quickly and easily.By using blockchain technologies, the security and transparency of the bidding and financial transactions are guaranteed. Every bid and financial transaction is recorded on the blockchain, making it secure and reliable for all parties involved.With the use of modern web technologies like React.js, the user interface is designed to be attractive and user-friendly, making it easy for users to interact with the platform and submit their bids efficiently In short, my new project is a leading platform in the field of bid submission for tenders, combining advanced modern technologies to ensure a smooth and secure process"  />
           <div className="grid gap-6">
             <div className="grid gap-2">
               <Text value="CATEGORY" textStyle="ProjectDetailLabel" />
@@ -54,7 +53,7 @@ const ProjectDetail = () => {
             <div className="grid gap-2">
               <Text value="TECHNOLOGY" textStyle="ProjectDetailLabel" />
               <Text
-                value="JavaScript, HTML, CSS"
+                value="JavaScript, HTML, CSS,Tailwind, Reactjs ,Eherume"
                 textStyle="ProjectDetailValue"
               />
             </div>
