@@ -11,8 +11,8 @@ const HowWeWork = () => {
       <section className="grid place-items-center">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 2xl:w-5/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="HOW WE WORK"
-            title="We have a workflow that allows the job to be delivered well"
+            badge="كيف نعمل؟"
+            title="لدينا خطه عمل تضمن تسليم العمل بجودة عالية"
           />
         </div>
       </section>
@@ -29,20 +29,21 @@ const HowWeWork = () => {
             />
           </div>
         </aside>
-        <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
+        <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-right" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 01"
-            title={`Let's talk about your company's problems first`}
-            paragraph={"After submitting the quote form, we will review the data, then we will contact you. You can discuss with our team regarding your problem and find a solution to that problem. <br> <br> In this step, you will discuss what application to build."}
+            badge="الخطوه الاولي "
+            title={`لنبدأ بمناقشة مشكلات شركتك أولاً`}
+            paragraph={" في هذه الخطوة، ستناقش التطبيق الذي سيتم تطويره.بعد تقديم نموذج العرض، سنقوم بمراجعة البيانات، ثم نتواصل معك. يمكنك مناقشة مشكلتك مع فريقنا وإيجاد حل لها."}
           />
         </aside>
       </section>
       <section className="grid grid-cols-1 lg:grid-cols-2 place-items-center gap-8 lg:gap-5">
-        <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-right">
+        <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-right" data-aos="fade-up-right">
           <SectionSentence
-            badge="STEP 02"
-            title={`Doing planning, design and development until everything is finished`}
-            paragraph="When everything is agreed upon, our team will make plans related to the application that will be created. Starting from analysis, design, to development. <br> <br> In this step, the application is 100% complete."
+            badge="الخطوه الثانيه"
+            title={`التخطيط، التصميم، والتطوير حتى يتم إنجاز كل شيء`}
+            paragraph="عندما يتم الاتفاق على كل شيء، سيقوم فريقنا بوضع خطط تتعلق بالتطبيق الذي سيتم إنشاؤه. بدءًا من التحليل، مرورًا بالتصميم، وصولاً إلى التطوير.
+في هذه الخطوة، يكون التطبيق مكتملًا بنسبة 100%."
           />
         </aside>
         <aside className="w-full" data-aos="fade-up-left">
@@ -69,11 +70,12 @@ const HowWeWork = () => {
             />
           </div>
         </aside>
-        <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left" data-aos="fade-up-left">
+        <aside className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-right" data-aos="fade-up-left">
           <SectionSentence
-            badge="STEP 03"
-            title={`The project is complete and we ship all the project assets, and access to the server`}
-            paragraph="We will be responsible for delivering all the project assets to you, don't worry. These assets include, design files, source code, server access, and so on. <br> <br> In this step, everything is done and the contract ends."
+            badge="الخطوه الثالثه"
+            title={`اكتمال المشروع وتسليم جميع أصول المشروع والوصول إلى الخادم`}
+            paragraph="سنكون مسؤولين عن تسليم جميع أصول المشروع لك، فلا تقلق. تشمل هذه الأصول، ملفات التصميم، الكود المصدري، الوصول إلى الخادم، وما إلى ذلك.
+في هذه الخطوة، يتم إنهاء كل شيء وينتهي العقد"
           />
         </aside>
       </section>

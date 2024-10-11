@@ -49,20 +49,20 @@ const Project = () => {
           className="w-full sm:w-10/12 grid grid-cols-1 place-items-center gap-12 md:place-items-start md:w-8/12 lg:w-6/12"
           data-aos="fade-right"
         >
-          <div className="text-center md:text-left">
+          <div className="text-center md:text-right">
             <PageSentence
-              badge="PROJECTS"
-              title="We have completed many amazing projects that you will not believe"
+              badge="المشاريع "
+              title="لقد أنجزنا العديد من المشاريع المذهلة التي لن تصدقها."
             />
           </div>
         </aside>
         <aside className="w-full min-w-[175px] md:w-fit" data-aos="fade-left">
           <Select
             options={[
-              { label: 'App', value: 'app' },
-              { label: 'Website ', value: 'Website' },
-              { label: 'UI Design', value: 'ui-design' },
-              { label: 'Other', value: 'other' },
+              { label: 'تطبيقات الهاتف', value: 'تطبيقات الهاتف' },
+              { label: 'المواقع الالكترونيه ', value: 'المواقع الالكترونيه' },
+              { label: 'تصميم المواقع', value: 'تصميم المواقع' },
+              { label: 'اخري', value: 'اخري' },
             ]}
           />
         </aside>
@@ -81,7 +81,7 @@ const Project = () => {
             )
           })}
         </div>
-        <Button value="Load More" color="white" style="light" />
+        <Button value="عرض المزيد" color="white" style="light" />
       </section>
     </PageTemplate>
   )

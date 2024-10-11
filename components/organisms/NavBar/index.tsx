@@ -63,20 +63,20 @@ const NavBar = () => {
                   isOpen ? '' : 'hidden '
                 }space-y-5 mt-4 lg:mt-0 lg:space-y-0 lg:space-x-16 lg:flex lg:place-items-center`}
               >
-                <NavLink href="/service" value="Services" canActive={true} />
+                <NavLink href="/service" value="الخدمات " canActive={true} />
                 <NavLink
                   href="/how-we-work"
-                  value="How We Work"
+                  value="كيف نعمل"
                   canActive={true}
                 />
-                <NavLink href="/project" value="Project" canActive={true} />
-                <NavLink href="/about" value="About" canActive={true} />
+                <NavLink href="/project" value="المشاريع" canActive={true} />
+                <NavLink href="/about" value="نبذه عنا" canActive={true} />
               </div>
               <div
                 className={`${isOpen ? '' : 'hidden '}lg:block mt-5 lg:mt-0`}
               >
                 <ButtonLink
-                  value="Contact"
+                  value="تواصل معنا"
                   style="light"
                   color="white"
                   size="small"

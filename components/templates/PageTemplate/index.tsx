@@ -14,7 +14,7 @@ const PageTemplate = ({ children, title = 'Codex Tech' }: PageTemplateProps) => 
   return (
     <>
       <Head>
-        <title>{title}</title>
+        <title>Codex company</title>
       </Head>
       {/* Navbar Fixed on top */}
       <NavBar />

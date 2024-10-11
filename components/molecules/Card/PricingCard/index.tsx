@@ -24,7 +24,7 @@ const PricingCard = ({
       <div className="flex flex-row place-content-between items-start py-8 border-b border-borderLight">
         <Text value={title} textStyle="PricingTitle" />
         <div className="">
-          <Text value="Starting From" textStyle="PricingSubtitle" />
+          <Text value="تبدأ من " textStyle="PricingSubtitle" />
           <Text value={price} textStyle="PricingPrice" />
         </div>
       </div>
@@ -33,7 +33,7 @@ const PricingCard = ({
           <Text  key={randomString(64)} value={feature} textStyle="PricingDetail" />
         ))}
       </div>
-      <Button value="Detail" onClick={buttonOnclick} color={isHovered ? 'primary' : 'white'} />
+      <Button value="التفاصيل " onClick={buttonOnclick} color={isHovered ? 'primary' : 'white'} />
     </div>
   )
 }

@@ -14,7 +14,7 @@ import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
 const Home = () => {
   return (
     <>
-      <PageTemplate title="Home - Collosal">
+      <PageTemplate title="Home - Codex-Tech">
         {/* Banner Section */}
         <section
           className="flex flex-col gap-10 items-center"
@@ -22,15 +22,15 @@ const Home = () => {
         >
           <div className="w-10/12 md:w-8/12 text-center">
             <PageSentence
-              title="Get Your App Live In 4 Weeks"
-              description="We are committed to not making clients wait. We will deliver the work as quickly as possible. Even on the same day. Even so, we do not reduce the quality of our work."
+              title="احصل علي تطبيقك في 4 اسابيع"
+              description="نحن ملتزمون بعدم جعل العملاء ينتظرون. سنسلم العمل بأسرع وقت ممكن. حتى في نفس اليوم. ومع ذلك، لا نقلل من جودة عملنا."
               badge="CLIENT-DEVELOPMENT-DRIVEN"
             />
           </div>
           <div className="flex flex-col gap-6 sm:flex-row w-full sm:w-fit">
-            <ButtonLink value="Send Quote" href="/quote" />
+            <ButtonLink value="ارسل شكوتك" href="/quote" />
             <ButtonLink
-              value="Learn More"
+              value="المزيد"
               color="white"
               style="light"
               href="/about"
@@ -40,25 +40,32 @@ const Home = () => {
         {/* Feature List */}
         <section className="grid grid-cols-1 gap-5 md:grid-cols-3 mb-16">
       
-          <div data-aos="fade-up">
+        <div data-aos="fade-up">
             <FeatureCard
-              title="Design"
-              description="The project interface will be designed first, our favorite tool is Figma."
-              icon={<FiFigma />}
+              title="التسليم"
+              description="بعد إتمام العمل، سنرسل لك المشروع وجميع ملفاته."
+              icon={<FiBox />}
             />
           </div>
+
           <div data-aos="fade-up">
             <FeatureCard
-              title="Develop"
-              description="Transform design and write business logic here. Choose the technology you want."
+              title="التطوير"
+              description="تحويل التصميم وكتابة المنطق التجاري هنا. اختر التقنية التي تفضلها.
+
+"
               icon={<FiCode />}
             />
           </div>
+
+        
           <div data-aos="fade-up">
             <FeatureCard
-              title="Ship"
-              description="After the work is complete, we will send the project and all its assets to you."
-              icon={<FiBox />}
+              title="التصميم "
+              description="التصميم
+
+سيتم تصميم واجهة المشروع أولاً، وأداتنا المفضلة هي Figma."
+              icon={<FiFigma />}
             />
           </div>
         </section>
@@ -79,9 +86,9 @@ const Home = () => {
             data-aos="fade-left"
           >
             <SectionSentence
-              title="Everything is well planned, well designed and developed wholeheartedly"
-              paragraph="Careful planning makes us confident, developed with best practices so that the project can be maintained. We always test projects before they are shipped."
-              badge="HOW WE WORK"
+              title="كل شيء مخطط بعناية، مصمم جيداً ويتم تطويره بكل إخلاص."
+              paragraph="التخطيط الدقيق يجعلنا واثقين، ويتم التطوير بأفضل الممارسات لضمان سهولة صيانة المشروع. نحن دائماً نختبر المشاريع قبل تسليمها.."
+              badge="كيف نعمل"
             />
           </aside>
         </section>
@@ -90,9 +97,9 @@ const Home = () => {
           <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
-                title="We're a team of designers, engineers and analysts"
-                paragraph="Our team consists of many creative people. We are committed to maintaining quality work as well as speed. These creative people work together to create maximum work results."
-                badge="OUR TEAM"
+                title="نحن فريق من المصممين والمهندسين والمحللين."
+                paragraph="يتألف فريقنا من العديد من الأشخاص المبدعين. نحن ملتزمون بالحفاظ على جودة العمل وكذلك السرعة. يعمل هؤلاء المبدعون معًا لتحقيق أقصى نتائج في العمل.."
+                badge="فريقنا"
               />
               <ButtonLink
                 value="See Our Teams"
@@ -123,8 +130,8 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="We have completed many amazing projects that you will not believe"
-              badge="PROJECTS"
+              title="لقد أنجزنا العديد من المشاريع المذهلة التي لن تصدقها."
+              badge="المشاريع"
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5">
@@ -150,38 +157,37 @@ const Home = () => {
             data-aos="zoom-in-up"
           >
             <SectionSentence
-              title="What do you need? Choose a service that can help you"
-              badge="GET STARTED"
+              title="ماذا تحتاج؟ اختر الخدمة التي يمكن أن تساعدك"
+              badge="!لنبدأ "
             />
           </div>
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
             <div data-aos="fade-up-right">
               <PricingCard
-                price="$2000"
-                title="Startup Package"
+                price="$2000 "
+                title="باقه البدايه   "
                 features={[
-                  '- Custom mobile app or website development',
-                  '- Up to 2 revisions',
-                  '- Basic features & design',
-                  '- 2-4 weeks delivery time',
-                  '- 2 weeks of post-launch support',
-                  '- Basic SEO optimization',
+                  'تطوير تطبيق مخصص للهاتف المحمول أو موقع إلكتروني -',
+                  'حتى تعديلين - ',
+                  'ميزات وتصميم أساسيين -',
+                  'مدة التسليم من 2 إلى 4 أسابيع -',
+                  'دعم لمدة أسبوعين بعد الإطلاق -',
+                  '(SEO) تحسين محركات البحث الأساسي -',
                 ]}
               />
             </div>
             <div data-aos="fade-up" data-aos-delay="300">
             <PricingCard
-                price="$15,000+"
-                title="Enterprise Package"
+                price="$15,000+ "
+                title="حزمة المؤسسات"
                 features={[
-                  '- Custom mobile app, platform, or e-commerce solution Advanced features (e.g., machine learning, AI, analytics)',
-                  '- Unlimited revisions within scope',
-                  '- Extensive API integrations & cloud infrastructure setup',
-                  '- 3-6 months development time',
-                  '- 6+ months of post-launch support & maintenance',
-                  '- Comprehensive SEO & performance optimization',
-                  '- Custom hosting & cloud infrastructure setup',
-
+                  'تطبيق مخصص للهاتف المحمول، أو منصة، أو حل للتجارة الإلكترونية مع ميزات متقدمة (مثل التعلم الآلي، الذكاء الاصطناعي، التحليلات)',
+                  'تعديلات غير محدودة ضمن النطاق',
+                  'تكاملات API شاملة وإعداد بنية تحتية سحابية',
+                  'مدة تطوير من 3 إلى 6 أشهر',
+                  'دعم وصيانة لأكثر من 6 أشهر بعد الإطلاق',
+                  'تحسين شامل لمحركات البحث (SEO) والأداء',
+                  'إعداد استضافة مخصصة وبنية تحتية سحابية',
                 ]}
 
                 
@@ -192,15 +198,15 @@ const Home = () => {
 
             <PricingCard
                 price="$5000"
-                title="Growth Package"
+                title="حزمة النمو"
                 features={[
-                  '- Full-featured custom mobile app or website API integration (e.g., payment gateways, CRM)',
-                  '- Custom UI/UX design',
-                  '- Up to 4 revisions',
-                  '- 1-2 months development time',
-                  '- 1-2 months of post-launch support',
-                  '- SEO & performance optimization',
-                  'Hosting setup'
+                  'تطبيق مخصص للهاتف المحمول أو موقع إلكتروني متكامل بالكامل مع تكامل API (مثل بوابات الدفع، CRM)',
+                  'تصميم واجهة مستخدم وتجربة مستخدم مخصص',
+                  'حتى 4 تعديلات',
+                  'مدة تطوير من 1 إلى 2 شهر',
+                  'دعم لمدة 1-2 شهر بعد الإطلاق',
+                  'تحسين محركات البحث (SEO) والأداء',
+                  'إعداد الاستضافة'
                 ]}
               />
             </div>
@@ -210,8 +216,8 @@ const Home = () => {
         <section className="flex flex-col gap-16 items-center">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12" data-aos="zoom-in-up">
             <SectionSentence
-              title="What do our clients say that we never let down?"
-              badge="TESTIMONIAL"
+              title="ماذا يقول عملاؤنا عنا أننا لم نخيب ظنهم أبداً؟"
+              badge="اراء عملائنا"
             />
           </div>
           <div className="w-full" data-aos="fade-up">

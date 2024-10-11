@@ -25,8 +25,8 @@ const Services = () => {
         <section className="grid place-items-center" data-aos="zoom-in-up">
           <div className="text-center sm:w-10/12 md:w-8/12 lg:w-6/12">
             <PageSentence
-              badge="SERVICES"
-              title="We are here to help solve your company's problems"
+              badge="الخدمات"
+              title="نحن هنا للمساعدة في حل مشكلات شركتك"
             />
           </div>
         </section>
@@ -38,57 +38,57 @@ const Services = () => {
                 src={'/images/ui-design-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
-                alt='UI Design'
+                alt='تصميم واجهة المستخدم'
               />
             </figure>
           </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-right">
               <SectionSentence
-                badge="UI DESIGN"
-                title="Don't let your idea get caught by others, design a prototype for your idea"
-                paragraph="Delegate your ideas as quickly as possible, create beautiful designs and vivid prototypes."
+                badge="تصميم واجهة المستخدم"
+                title="لا تدع فكرتك تُلتقط من قبل الآخرين، صمم نموذجًا أوليًا لفكرتك."
+                paragraph="انقل أفكارك بأسرع وقت ممكن، واصنع تصاميم جميلة ونماذج أولية حية."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 sm:grid-cols-2 gap-5">
                 <SmallCardIcon
-                  title="Beautiful Design"
-                  description="Create a modern design for your idea."
+                  title="تصميم جميل"
+                  description="اصنع تصميمًا عصريًا لفكرتك."
                   icon={<FiLayout />}
                 />
                 <SmallCardIcon
-                  title="Prototype"
-                  description="Create vivid prototypes for your designs."
+                  title="نموذج أولي"
+                  description="اصنع نماذج أولية حية لتصميماتك."
                   icon={<FiLayout />}
                 />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="تفاصيل الخدمات" href="/service/detail" />
             </div>
           </aside>
         </section>
         <section className="grid grid-cols-1 place-items-center gap-8 lg:grid-cols-2 lg:gap-5 ">
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-right">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-right">
               <SectionSentence
-                badge="DEVELOPMENT"
-                title="Create solutions to repetitive problems, design applications and access anywhere!"
-                paragraph="Just tell us your repetitive problem or the primitive method used today, and we will create a digital solution."
+                badge="التطوير"
+                title="ابتكر حلولًا للمشكلات المتكررة، وصمم تطبيقات يمكن الوصول إليها من أي مكان!"
+                paragraph="أخبرنا فقط بمشكلتك المتكررة أو الطريقة البدائية المستخدمة اليوم، وسنقوم بإنشاء حل رقمي."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="w-full grid grid-cols-1 gap-5">
                 <CardListIcon
                   icon={<FiSmartphone />}
-                  title="Mobile App Development"
+                  title="تطوير تطبيقات الهاتف المحمول"
                 />
                 <CardListIcon
                   icon={<FiMonitor />}
-                  title="Desktop App Development"
+                  title="تطوير تطبيقات سطح المكتب"
                 />
-                <CardListIcon icon={<FiGlobe />} title="Web Development" />
+                <CardListIcon icon={<FiGlobe />} title="تطوير مواقع الويب" />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="تفاصيل الخدمه" href="/service/detail" />
             </div>
           </aside>
           <aside className="w-full sm:w-10/12 md:w-8/12 lg:w-full" data-aos="fade-up-left">
@@ -97,7 +97,7 @@ const Services = () => {
                 src={'/images/development-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
-                alt='IDE for development'
+                alt='بيئة تطوير متكاملة'
               />
             </figure>
           </aside>
@@ -109,26 +109,26 @@ const Services = () => {
                 src={'/images/maintenance-illustration.svg'}
                 layout="fill"
                 objectFit="fill"
-                alt='server maintenance'
+                alt='صيانة الخادم'
               />
             </figure>
           </aside>
           <aside className="grid gap-12 place-items-center" data-aos="fade-up-left">
-            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-left">
+            <div className="sm:w-10/12 md:w-8/12 lg:w-full text-center lg:text-right">
               <SectionSentence
-                badge="MAINTENANCE"
-                title="Think of your server as your own child, taking care of it every day"
-                paragraph="We will back up your servers every day, clean them every week, upgrade them when there is an update."
+                badge="الصيانة"
+                title="فكر في خادمك وكأنه طفلك الخاص، اعتنِ به كل يوم."
+                paragraph="سنقوم بعمل نسخة احتياطية لخوادمك كل يوم، وتنظيفها كل أسبوع، وترقيتها عند وجود تحديث."
               />
             </div>
             <div className="grid gap-6 w-full place-items-end md:w-8/12 lg:w-full">
               <aside className="grid grid-cols-1 sm:grid-cols-2 gap-5 w-full">
-                <IconListItem icon={<FiDownload />} value='Back up every day' />
-                <IconListItem icon={<FiArrowUp />} value='Upgrade' />
-                <IconListItem icon={<FiRefreshCcw />} value='Cleaning every week' />
-                <IconListItem icon={<FiCheckCircle />} value='Fixing Error' />
+                <IconListItem icon={<FiDownload />} value='نسخ احتياطي يومي' />
+                <IconListItem icon={<FiArrowUp />} value='ترقية' />
+                <IconListItem icon={<FiRefreshCcw />} value='تنظيف أسبوعي' />
+                <IconListItem icon={<FiCheckCircle />} value='إصلاح الأخطاء' />
               </aside>
-              <TextArrowLink label="Service Detail" href="/service/detail" />
+              <TextArrowLink label="تفاصيل الخدمه" href="/service/detail" />
             </div>
           </aside>
         </section>
