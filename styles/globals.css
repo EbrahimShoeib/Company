@@ -3,6 +3,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  font-family: 'Josefin Sans', cursive;
+}
+
 @layer base {
   html {
     font-family: 'Bungee Inline', cursive;
@@ -37,3 +41,4 @@
     @apply border-2 border-primary mt-0 !important;
   }
 }
+
