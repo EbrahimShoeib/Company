@@ -10,6 +10,7 @@ import randomString from 'utils/randomString'
 const ProjectDetail = () => {
   interface Project {
     title: string
+    
     description: string
   }
   const projectList: Project[] = [
