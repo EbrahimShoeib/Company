@@ -2,5 +2,6 @@
     "cSpell.words": [
         "fontawesome",
         "semibold"
-    ]
+    ],
+    "typescript.tsdk": "node_modules\\typescript\\lib"
 }

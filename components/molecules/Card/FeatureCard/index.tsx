@@ -14,7 +14,7 @@ const FeatureCard = ({
 }: FeatureCardProps) => {
   return (
     <div
-      className={`w-full h-full bg-light rounded-md px-10 py-8 border-2 border-transparent hover:border-borderLight transition-all duration-300 grid gap-5`}
+      className={`w-full h-full bg-light rounded-md px-10 py-8 border-2 border-transparent hover:border-borderLight transition-all duration-300 grid gap-5 `}
     >
       <div
         className={`rounded-sm ${

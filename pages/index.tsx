@@ -82,7 +82,7 @@ const Home = () => {
             />
           </aside>
           <aside
-            className="text-center sm:w-10/12 lg:text-left lg:w-full"
+            className="text-center sm:w-10/12 lg:text-right lg:w-full"
             data-aos="fade-left"
           >
             <SectionSentence
@@ -94,7 +94,7 @@ const Home = () => {
         </section>
         {/* Our Teams */}
         <section className="grid grid-cols-1 gap-6 sm:gap-8 place-items-center lg:grid-cols-2">
-          <aside className="text-center sm:w-10/12 lg:text-left lg:w-full">
+          <aside className="text-center sm:w-10/12 lg:text-right lg:w-full">
             <div className="space-y-12" data-aos="fade-right">
               <SectionSentence
                 title="نحن فريق من المصممين والمهندسين والمحللين."
@@ -102,11 +102,12 @@ const Home = () => {
                 badge="فريقنا"
               />
               <ButtonLink
-                value="See Our Teams"
+                value="فريقنا "
                 href="/teams"
                 size="small"
                 color="white"
                 style="light"
+                
               />
             </div>
           </aside>

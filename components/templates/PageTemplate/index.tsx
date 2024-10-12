@@ -45,8 +45,8 @@ const PageTemplate = ({ children, title = 'Codex Tech' }: PageTemplateProps) => 
       ) : (
         <>
           <div className="w-full h-fit min-h-screen bg-dark overflow-x-hidden">
-            <div className="w-full h-full min-h-screen relative bg-[url('/images/page-background.svg')] bg-cover">
-              <div className="w-full h-full min-h-screen relative backdrop-blur-[175px] bg-dark/[.80] overflow-visible">
+            <div className="w-full h-full min-h-screen relative bg-[url('/images/bg7.jpg')] bg-cover">
+              <div className="w-full h-full min-h-screen relative backdrop-blur-sm bg-dark/70  overflow-visible">
                 {/* Space for navbar, because navbar is absolute */}
                 <div className="h-[105px]"></div>
                 {/* Padding */}
