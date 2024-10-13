@@ -19,7 +19,7 @@ const About = () => {
               layout="fill"
               objectFit="contain"
               quality={80}
-              alt="المبرمجون أثناء البرمجة على حواسيبهم المحمولة"
+              alt=" أثناء البرمجة على حواسيبهم المحمولة"
               className='rounded-3xl'
             />
           </div>
