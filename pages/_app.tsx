@@ -2,8 +2,8 @@ import 'styles/globals.css'
 import type { AppProps } from 'next/app'
 import 'aos/dist/aos.css'
 import AOS from 'aos'
-import { Cairo } from '@next/font/google';
-const cairo = Cairo({ subsets: ['arabic'], weight: '900' });
+// import { Cairo } from '@next/font/google';
+// const cairo = Cairo({ subsets: ['arabic'], weight: '900' });
 
 import { useEffect } from 'react'
 function MyApp({ Component, pageProps }: AppProps) {
@@ -12,7 +12,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       duration: 600
     })
   }, [])
-  return <main className={cairo.className}>
+  return <main>
   <Component {...pageProps} />
 </main>
 }
