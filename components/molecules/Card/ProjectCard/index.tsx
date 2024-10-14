@@ -48,12 +48,11 @@ type TypeProps={
   description:string,
   image:string,
   alt:string
-
 }
 const ProjectCard = (props:TypeProps) => {
   return (
     <div className='flex justify-center  p-3   '>
-      <div className="  max-w-sm rounded overflow-hidden shadow-lg">
+      <div className="  max-w-sm rounded-3xl overflow-hidden shadow-lg">
   <img className="w-full" src={props.image} alt={props.alt} />
   <div className="flex flex-col place-items-center text-center mt-10">
         <div className="mb-2.5">

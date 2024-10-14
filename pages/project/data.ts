@@ -5,6 +5,7 @@ interface Project {
     alt :string
   }
 
+
 const projectList: Project[] = [
     {
       title: 'The Mobile App E-commerce',
@@ -43,7 +44,7 @@ const projectList: Project[] = [
     {
       title: 'Saifi Stable',
       description: 'A website App',
-      image: '/images/projects/faria.webp',
+      image: '/images/projects/saifi.webp',
       alt: 'Saifi Stable image'
 
     },

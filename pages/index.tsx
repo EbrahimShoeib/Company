@@ -11,7 +11,7 @@ import PageTemplate from 'components/templates/PageTemplate'
 import Image from 'next/image'
 import React from 'react'
 import { FiFigma, FiCode, FiBox } from 'react-icons/fi'
-const Home = () => {
+const Home = ( ) => {
   return (
     <>
       <PageTemplate title="Home - Codex-Tech">
@@ -138,15 +138,18 @@ const Home = () => {
           <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5">
             <div data-aos="flip-left">
               <ProjectCard
-                title="The Desktop App Landing Page"
-                description="A landing page for desktop app"
+                title="The  Mobile App Live Streem"
+                description="/images/projects/Hulk.webp"
+                image ="/images/projects/faria.webp"
+                alt ="The  Mobile App search job iimage"
               />
             </div>
             <div data-aos="flip-right">
               <ProjectCard
-                title="The Mobile App Landing Page"
-                description="A landing page for mobile app"
-                bottomSquareSize="big"
+                title="Saifi Stable"
+                description="A website Dashboard"
+                image ="/images/projects/saifi.webp"
+                alt ="Saifi Stable image"
               />
             </div>
           </div>

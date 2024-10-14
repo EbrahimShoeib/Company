@@ -1,11 +1,18 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-3,333&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  font-family: 'Josefin Sans', cursive;
-}
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 333;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" -3;
+  
+  }
 
 @layer base {
   html {

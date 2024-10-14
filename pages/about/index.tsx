@@ -13,9 +13,9 @@ const About = () => {
     <PageTemplate title="About - Codex-Tech">
       <section className="grid grid-cols-1 lg:grid-cols-2 gap-8 place-items-center">
         <aside className="w-full" data-aos="fade-down-right">
-          <div className="w-full h-[480px] relative">
+          <div className="w-full h-[480px] relative ">
             <Image
-              src={'/images/whitelogo.webp'}
+              src={'/images/whitelogo.png'}
               layout="fill"
               objectFit="contain"
               quality={80}
@@ -69,7 +69,7 @@ const About = () => {
         <div className="w-full grid gap-5 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
           <div data-aos="fade-up">
             <TeamCard
-              imageSrc="/images/IbrahimShoeib.webp"
+              imageSrc="/images/IbrahimShoeib.png"
               job="Project Manager"
               name="Ibrahum Shoeib "
             />
@@ -88,7 +88,7 @@ const About = () => {
               name="Zeyad Atef"
             />
           </div>
-          <div data-aos="fade-up">
+          {/* <div data-aos="fade-up">
             <TeamCard
               imageSrc="/images/codex.PNG"
               job="Software Engineer"
@@ -108,7 +108,7 @@ const About = () => {
               job="Project Manager"
               name="Annette Black"
             />
-          </div>
+          </div> */}
         </div>
       </section>
     </PageTemplate>
