@@ -6,7 +6,7 @@ interface Project {
   }
 
 
-const projectList: Project[] = [
+export const projectList: Project[] = [
     {
       title: 'The Mobile App E-commerce',
       description: 'E-commerce for mobile app',
@@ -57,4 +57,4 @@ const projectList: Project[] = [
     },
   ]
 
-  export default projectList
+ 
