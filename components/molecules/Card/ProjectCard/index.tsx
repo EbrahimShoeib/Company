@@ -43,13 +43,20 @@ import Button from 'components/atoms/Button'
 
 import React from 'react';
 
-const ProjectCard = (props) => {
+type TypeProps={
+  title:string,
+  description:string,
+  image:string,
+  alt:string
+
+}
+const ProjectCard = (props:TypeProps) => {
   return (
     <div className='flex justify-center  p-3   '>
       <div className="  max-w-sm rounded overflow-hidden shadow-lg">
   <img className="w-full" src={props.image} alt={props.alt} />
   <div className="flex flex-col place-items-center text-center mt-10">
-//         <div className="mb-2.5">
+        <div className="mb-2.5">
     <div className="font-bold text-xl mb-2 text-primary">{props.title}</div>
     <p className="text-white text-base">
 {props.description}    </p>
