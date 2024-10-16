@@ -54,7 +54,7 @@ interface TextProps {
     | 'IconListValueWithoutKey'
 }
 const Text = ({ value, textStyle }: TextProps) => {
-  const getTextStyle = (): string => {
+  const getTextStyle = (): string => { 
     switch (textStyle) {
       case 'SectionBadge':
         return 'text-badge font-semibold text-base leading-8'
@@ -69,9 +69,9 @@ const Text = ({ value, textStyle }: TextProps) => {
       case 'PageDescription':
         return 'text-muted font-medium text-base leading-8'
       case 'PageSubtitle':
-        return 'text-white font-bold text-3xl leading-12'
+        return 'text-white font-bold text-3xl leading-12 text-right'
       case 'PageContent':
-        return 'text-white font-medium text-base leading-8.5'
+        return 'text-white font-medium text-base leading-8.5 text-right '
       case 'PricingPrice':
         return 'text-white font-bold text-4xl leading-12'
       case 'PricingTitle':

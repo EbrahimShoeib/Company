@@ -93,7 +93,8 @@ interface Project {
   title: string
   description: string,
   image:string,
-  alt :string
+  alt :string,
+  id:number
 }
 
 
@@ -102,48 +103,59 @@ export const projectList: Project[] = [
     title: 'The Mobile App E-commerce',
     description: 'E-commerce for mobile app',
     image: '/images/projects/E-commerce.webp',
-    alt: 'The Mobile App E-commerce image'
+    alt: 'The Mobile App E-commerce image',
+    id:1
   },
   {
     title: 'The  Mobile App Live Streem ',
     description: 'Hulk live Streem for Mobile App',
     image: '/images/projects/Hulk.webp',
-    alt: 'The  Mobile App search job iimage'
+    alt: 'The  Mobile App search job iimage',
+    id:2
+
 
   },
   {
     title: 'The  Mobile App search job',
     description: 'A Mobile App To Get job',
     image: '/images/projects/jobs.webp',
-    alt: 'The  Mobile App search job image'
+    alt: 'The  Mobile App search job image',
+    id:3
+
 
   },
   {
     title: 'Faria Website',
     description: 'A website App',
     image: '/images/projects/faria.webp',
-    alt: 'Faria Website image'
+    alt: 'Faria Website image',
+    id:4
+
 
   },
   {
     title: '(investing in real-state) seamless',
     description: 'A UI design for realtime chat app',
     image: '/images/projects/wallet.webp',
-    alt: 'seamless image'
+    alt: 'seamless image',
+    id:5
+
 
   },
   {
     title: 'Saifi Stable',
     description: 'A website App',
     image: '/images/projects/saifi.webp',
-    alt: 'Saifi Stable image'
-
+    alt: 'Saifi Stable image',
+    id:6
   },
   {
     title: 'jobque (job finder)',
     description: 'A website App',
     image: '/images/projects/faria.webp',
-    alt: 'jobque (job finder) image'
+    alt: 'jobque (job finder) image',
+    id:7
+
 
   },
 ]

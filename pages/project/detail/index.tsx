@@ -6,8 +6,11 @@ import ProjectCard from 'components/molecules/Card/ProjectCard'
 import PageTemplate from 'components/templates/PageTemplate'
 import React from 'react'
 import randomString from 'utils/randomString'
+
 // import { description } from '../description'
 const ProjectDetail = () => {
+
+
   interface Project {
     title: string
     description: string
@@ -28,6 +31,7 @@ const ProjectDetail = () => {
       image:""
     },
   ]
+
   return (
     <PageTemplate title='Project Detail - Collosal'>
       <section className="grid place-items-center" data-aos="zoom-in-up">

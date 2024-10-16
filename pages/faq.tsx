@@ -9,28 +9,28 @@ import getRandomItemsFromArray from 'utils/getRandomItemsFromArray'
 const Faq = () => {
   const faqs = [
     {
-      title: `How is the payment system?`,
-      description: `If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.`,
+      title: `كيف يتم نظام الدفع؟`,
+      description: `إذا تم الاتفاق على المشروع، ستقوم بدفع مقدم، وعندما يصل التقدم إلى 50% ستقوم بعمل دفعة ثانية، وعندما يكتمل التقدم 100% ستقوم بسداد المبلغ المتبقي.`,
     },
     {
-      title: `Can I consult first?`,
-      description: `Of course you can consult us first. We are very happy to help your problems and provide our best solutions. You can contact us via the contact page.`,
+      title: `هل يمكنني الاستشارة أولاً؟`,
+      description: `بالطبع يمكنك استشارتنا أولاً. نحن سعداء جدًا لمساعدتك في مشاكلك وتقديم أفضل الحلول. يمكنك الاتصال بنا عبر صفحة الاتصال.`,
     },
     {
-      title: `What if the project stops halfway?`,
-      description: `We promise to always finish the project on time, if a problem occurs (because of our mistake), all payments will be refunded. And the project will be terminated.`,
+      title: `ماذا لو توقف المشروع في منتصف الطريق؟`,
+      description: `نعدك بأن نكمل المشروع في الوقت المحدد، إذا حدثت مشكلة (بسبب خطأ منا)، سيتم استرداد جميع المدفوعات. وسيتم إنهاء المشروع.`,
     },
     {
-      title: `Does it include servers and domains?`,
-      description: `You don't need to think about anything else, we have everything prepared. You just need to check your progress and make sure the features you want are the right one.`,
+      title: `هل يشمل ذلك الخوادم والنطاقات؟`,
+      description: `لا تحتاج إلى التفكير في أي شيء آخر، فنحن لدينا كل شيء جاهز. كل ما تحتاجه هو التحقق من تقدمك والتأكد من أن الميزات التي تريدها صحيحة.`,
     },
     {
-      title: `Will I get the source code?`,
-      description: `When the project is 100% complete, all the resources, such as design files, analysis diagrams, source code, etc. will be provided to you. You don't need to worry about this.`,
+      title: `هل سأحصل على كود المصدر؟`,
+      description: `عند اكتمال المشروع بنسبة 100%، سيتم تزويدك بجميع الموارد، مثل ملفات التصميم، ورسوم التحليل، وكود المصدر، إلخ. لا تحتاج إلى القلق بشأن هذا.`,
     },
     {
-      title: `Is there a warranty?`,
-      description: `1 year warranty for our errors or mistakes. If you want to add a feature that is not included in the warranty, there is another fee per feature, and the price depends on the difficulty.`,
+      title: 'هل هناك ضمان؟',
+      description: `ضمان لمدة سنة واحدة لأخطائنا أو أخطاء. إذا كنت ترغب في إضافة ميزة غير مشمولة في الضمان، فسيكون هناك رسوم إضافية لكل ميزة، ويعتمد السعر على الصعوبة.`,
     },
   ]
   const [randomFaqs, setRandomFaqs] = useState([faqs, faqs, faqs, faqs])
@@ -38,28 +38,28 @@ const Faq = () => {
   useEffect(() => {
     const faqs = [
       {
-        title: `How is the payment system?`,
-        description: `If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.`,
+        title: `كيف يتم نظام الدفع؟`,
+        description: `إذا تم الاتفاق على المشروع، ستقوم بدفع مقدم، وعندما يصل التقدم إلى 50% ستقوم بعمل دفعة ثانية، وعندما يكتمل التقدم 100% ستقوم بسداد المبلغ المتبقي.`,
       },
       {
-        title: `Can I consult first?`,
-        description: `Of course you can consult us first. We are very happy to help your problems and provide our best solutions. You can contact us via the contact page.`,
+        title: `هل يمكنني الاستشارة أولاً؟`,
+        description: `بالطبع يمكنك استشارتنا أولاً. نحن سعداء جدًا لمساعدتك في مشاكلك وتقديم أفضل الحلول. يمكنك الاتصال بنا عبر صفحة الاتصال.`,
       },
       {
-        title: `What if the project stops halfway?`,
-        description: `We promise to always finish the project on time, if a problem occurs (because of our mistake), all payments will be refunded. And the project will be terminated.`,
+        title: `ماذا لو توقف المشروع في منتصف الطريق؟`,
+        description: `نعدك بأن نكمل المشروع في الوقت المحدد، إذا حدثت مشكلة (بسبب خطأ منا)، سيتم استرداد جميع المدفوعات. وسيتم إنهاء المشروع.`,
       },
       {
-        title: `Does it include servers and domains?`,
-        description: `You don't need to think about anything else, we have everything prepared. You just need to check your progress and make sure the features you want are the right one.`,
+        title: `هل يشمل ذلك الخوادم والنطاقات؟`,
+        description: `لا تحتاج إلى التفكير في أي شيء آخر، فنحن لدينا كل شيء جاهز. كل ما تحتاجه هو التحقق من تقدمك والتأكد من أن الميزات التي تريدها صحيحة.`,
       },
       {
-        title: `Will I get the source code?`,
-        description: `When the project is 100% complete, all the resources, such as design files, analysis diagrams, source code, etc. will be provided to you. You don't need to worry about this.`,
+        title: `هل سأحصل على كود المصدر؟`,
+        description: `عند اكتمال المشروع بنسبة 100%، سيتم تزويدك بجميع الموارد، مثل ملفات التصميم، ورسوم التحليل، وكود المصدر، إلخ. لا تحتاج إلى القلق بشأن هذا.`,
       },
       {
-        title: `Is there a warranty?`,
-        description: `1 year warranty for our errors or mistakes. If you want to add a feature that is not included in the warranty, there is another fee per feature, and the price depends on the difficulty.`,
+        title: 'هل هناك ضمان؟',
+        description: `ضمان لمدة سنة واحدة لأخطائنا أو أخطاء. إذا كنت ترغب في إضافة ميزة غير مشمولة في الضمان، فسيكون هناك رسوم إضافية لكل ميزة، ويعتمد السعر على الصعوبة.`,
       },
     ]
     setRandomFaqs([
@@ -74,8 +74,8 @@ const Faq = () => {
       <section className="grid grid-cols-1 place-items-center">
         <div className="sm:w-10/12 md:8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            badge="الاسئله الشائعه"
+            title="الاسئله الشائعه, ربما تكون الاسئله اللتي تخطر في ذهنك"
           />
         </div>
       </section>
@@ -84,25 +84,25 @@ const Faq = () => {
           <FaqTabbar
             tabs={[
               {
-                name: 'General',
+                name: 'عام',
                 onClick: () => {
                   setActiveFaq(randomFaqs[0])
                 },
               },
               {
-                name: 'Transaction',
+                name: 'التحويلات',
                 onClick: () => {
                   setActiveFaq(randomFaqs[1])
                 },
               },
               {
-                name: 'Maintenance',
+                name: 'الصيانة',
                 onClick: () => {
                   setActiveFaq(randomFaqs[2])
                 },
               },
               {
-                name: 'Technology',
+                name: 'التكنولوجيا',
                 onClick: () => {
                   setActiveFaq(randomFaqs[3])
                 },

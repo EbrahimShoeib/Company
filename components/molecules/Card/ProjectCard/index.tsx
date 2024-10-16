@@ -40,16 +40,18 @@ import ButtonLink from 'components/atoms/Button/ButtonLink';
 
 // export default ProjectCard
 import Button from 'components/atoms/Button';
-
 import React from 'react';
-
+ 
 type TypeProps = {
 	title: string;
 	description: string;
 	image: string;
 	alt: string;
 };
+ 
+
 const ProjectCard = (props: TypeProps) => {
+
 	return (
 		<div className="flex justify-center  p-3   ">
 			<div className="  max-w-sm rounded-3xl overflow-hidden shadow-lg">

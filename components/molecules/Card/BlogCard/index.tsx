@@ -54,7 +54,7 @@ const BlogCard = ({
           <Text textStyle='BlogLead' value={lead} />
       </div>
       <div className="flex gap-5">
-          <Image src={authorAvatarSrc} width={50} height={50} alt="Blog Author Avatar" />
+          <Image src={authorAvatarSrc} width={50} height={50} alt="صوره المدونه " />
           <div className="">
               <Text textStyle='AuthorNamePreview' value={authorName}  />
               <Text textStyle='BlogMeta' value={`${launchDate} • ${readTime} read`}  />

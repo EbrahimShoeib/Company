@@ -12,52 +12,52 @@ const Footer = () => {
             <NavBrand />
             <div className="">
               <Text
-                value={`Copyright © ${new Date().getFullYear()}`}
+                value={`${new Date().getFullYear()} © حقوق الطبع والنشر   `}
                 textStyle="SectionParagraph"
               />
               <Text
-                value={`Design By Codex-Tech CT`}
+                value={`Codex Tech تم التطوير بواسطه شركه `}
                 textStyle="SectionParagraph"
               />
             </div>
           </div>
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 lg:gap-16 xl:gap-20">
             <div className="space-y-5">
-              <Text value="SERVICES" textStyle="FooterLinkGroupTitle" />
+              <Text value="الخدمات " textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
                 <NavLink
-                  value="Web Development"
+                  value="تطوير الويب"
                   href="/service/detail"
                 />
                 <NavLink
-                  value="App Development"
+                  value="تطوير التطبيقات "
                   href="/service/detail"
                 />
-                <NavLink value="UI Design" href="/service/detail" />
-                <NavLink value="Consultation" href="/service/detail" />
-                <NavLink value="Maintenance" href="/service/detail" />
-                <NavLink value="Pricing" href="/pricing" />
+                <NavLink value="تصميم واجهه المستخدم" href="/service/detail" />
+                {/* <NavLink value="استشارة" href="/service/detail" /> */}
+                <NavLink value="صيانة" href="/service/detail" />
+                <NavLink value="التسعير" href="/pricing" />
               </div>
             </div>
             <div className="space-y-5">
-              <Text value="COMPANY" textStyle="FooterLinkGroupTitle" />
+              <Text value="الشركة" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
-                <NavLink value="About" href="/about" />
-                <NavLink value="Contact" href="/contact" />
-                <NavLink value="Send Quote" href="/quote" />
-                <NavLink value="Privacy Policy" href="/privacy-policy" />
-                <NavLink value="Term of Service" href="/term-of-service" />
-                <NavLink value="Jobs" href="/jobs" />
-                <NavLink value="Blogs" href="/blog" />
+                <NavLink value="عن الشركه" href="/about" />
+                <NavLink value="تواصل" href="/contact" />
+                <NavLink value="إرسال عرض سعر" href="/quote" />
+                {/* <NavLink value=" سياسة الخصوصية" href="/privacy-policy" /> */}
+                <NavLink value="شروط الخدمة" href="/term-of-service" />
+                {/* <NavLink value="الوظائف" href="/jobs" /> */}
+                {/* <NavLink value="المدونات" href="/blog" /> */}
               </div>
             </div>
             <div className="space-y-5">
-              <Text value="RESOURCES" textStyle="FooterLinkGroupTitle" />
+              <Text value="الموارد" textStyle="FooterLinkGroupTitle" />
               <div className="space-y-[10px]">
-                <NavLink value="Support" href="/support" />
-                <NavLink value="Documentation" href="/documentation" />
-                <NavLink value="License" href="/license" />
-                <NavLink value="Sitemap" href="/sitemap" />
+                <NavLink value="الدعم" href="/faq" />
+                {/* <NavLink value="الوثائق" href="/documentation" /> */}
+                {/* <NavLink value="الرخصة" href="/license" /> */}
+                {/* <NavLink value="خريطة الموقع" href="/sitemap" /> */}
               </div>
             </div>
           </div>

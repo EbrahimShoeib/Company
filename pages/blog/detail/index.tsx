@@ -90,15 +90,15 @@ const BlogDetail = () => {
           data-aos="zoom-in-up"
         >
           <PageSentence
-            badge="BLOG DETAIL"
-            title="10 Figma Plugins that will increase your productivity"
+            badge="تفاصيل المدونه "
+            title="  اضافاتك ال (10) من فيجما تزيد من انتاجيتك"
           />
-          <Text textStyle="BlogMeta" value={'Mar 11 • 3 min read'} />
+          <Text textStyle="BlogMeta" value={'مارس  • 30 دقيقه'} />
         </div>
       </section>
       <section className="w-full flex flex-col items-center">
         <div
-          className="w-12/12 md:w-10/12 mb-16"
+          className="w-12/12 md:w-10/12 mb-16" 
           ref={thumbnailContainer}
           data-aos="fade-up"
         >

@@ -14,28 +14,28 @@ const Pricing = () => {
   }
   const faqs: Faq[] = [
     {
-      title: `How is the payment system?`,
-      description: `If the project has agreed, you will pay an advance, and when the progress reaches 50% you will make a second payment, and when the progress is 100% you will pay it off.`,
+      title: `كيف يتم نظام الدفع؟`,
+      description: `إذا تم الاتفاق على المشروع، ستقوم بدفع مقدم، وعندما يصل التقدم إلى 50% ستقوم بعمل دفعة ثانية، وعندما يكتمل التقدم 100% ستقوم بسداد المبلغ المتبقي.`,
     },
     {
-      title: `Can I consult first?`,
-      description: `Of course you can consult us first. We are very happy to help your problems and provide our best solutions. You can contact us via the contact page.`,
+      title: `هل يمكنني الاستشارة أولاً؟`,
+      description: `بالطبع يمكنك استشارتنا أولاً. نحن سعداء جدًا لمساعدتك في مشاكلك وتقديم أفضل الحلول. يمكنك الاتصال بنا عبر صفحة الاتصال.`,
     },
     {
-      title: `What if the project stops halfway?`,
-      description: `We promise to always finish the project on time, if a problem occurs (because of our mistake), all payments will be refunded. And the project will be terminated.`,
+      title: `ماذا لو توقف المشروع في منتصف الطريق؟`,
+      description: `نعدك بأن نكمل المشروع في الوقت المحدد، إذا حدثت مشكلة (بسبب خطأ منا)، سيتم استرداد جميع المدفوعات. وسيتم إنهاء المشروع.`,
     },
     {
-      title: `Does it include servers and domains?`,
-      description: `You don't need to think about anything else, we have everything prepared. You just need to check your progress and make sure the features you want are the right one.`,
+      title: `هل يشمل ذلك الخوادم والنطاقات؟`,
+      description: `لا تحتاج إلى التفكير في أي شيء آخر، فنحن لدينا كل شيء جاهز. كل ما تحتاجه هو التحقق من تقدمك والتأكد من أن الميزات التي تريدها صحيحة.`,
     },
     {
-      title: `Will I get the source code?`,
-      description: `When the project is 100% complete, all the resources, such as design files, analysis diagrams, source code, etc. will be provided to you. You don't need to worry about this.`,
+      title: `هل سأحصل على كود المصدر؟`,
+      description: `عند اكتمال المشروع بنسبة 100%، سيتم تزويدك بجميع الموارد، مثل ملفات التصميم، ورسوم التحليل، وكود المصدر، إلخ. لا تحتاج إلى القلق بشأن هذا.`,
     },
     {
-      title: `Is there a warranty?`,
-      description: `1 year warranty for our errors or mistakes. If you want to add a feature that is not included in the warranty, there is another fee per feature, and the price depends on the difficulty.`,
+      title: 'هل هناك ضمان؟',
+      description: `ضمان لمدة سنة واحدة لأخطائنا أو أخطاء. إذا كنت ترغب في إضافة ميزة غير مشمولة في الضمان، فسيكون هناك رسوم إضافية لكل ميزة، ويعتمد السعر على الصعوبة.`,
     },
   ]
 
@@ -47,55 +47,67 @@ const Pricing = () => {
           data-aos="zoom-in-up"
         >
           <PageSentence
-            badge="PRICING"
-            title="What do you need? Choose a service that can help you"
+            badge="التسعير"
+            title="ماذا تحتاج؟ اختر الخدمة التي يمكن أن تساعدك."
           />
         </div>
       </section>
       <LineDivider />
-      <section className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
-        <div data-aos="fade-up">
-          <PricingCard
-            price="1200$"
-            title="UI Design"
-            features={[
-              '10 design pages',
-              'Well-documented',
-              '4 revisions',
-              '$100/additional page',
-            ]}
-          />
-        </div>
-        <div data-aos="fade-up">
-          <PricingCard
-            price="5000$"
-            title="Development"
-            features={[
-              'Web & Mobile',
-              'Well-documented',
-              '8 revisions',
-              '$1000/additional page',
-            ]}
-          />
-        </div>
-        <div data-aos="fade-up">
-          <PricingCard
-            price="3000$"
-            title="Maintenance"
-            features={[
-              'Daily backup',
-              '3 hours of maintenance',
-              'Including fixing',
-              '$50/additional hour',
-            ]}
-          />
-        </div>
-      </section>
+      <div className="w-full grid grid-cols-1 gap-10 sm:grid-cols-2 sm:gap-5 lg:grid-cols-3">
+            <div data-aos="fade-up-right">
+              <PricingCard
+                price="$2000 "
+                title="باقه البدايه   "
+                features={[
+                  'تطوير تطبيق مخصص للهاتف المحمول أو موقع إلكتروني -',
+                  'حتى تعديلين - ',
+                  'ميزات وتصميم أساسيين -',
+                  'مدة التسليم من 2 إلى 4 أسابيع -',
+                  'دعم لمدة أسبوعين بعد الإطلاق -',
+                  '(SEO) تحسين محركات البحث الأساسي -',
+                ]}
+              />
+            </div>
+            <div data-aos="fade-up" data-aos-delay="300">
+            <PricingCard
+                price="$15,000+ "
+                title="حزمة المؤسسات"
+                features={[
+                  'تطبيق مخصص للهاتف المحمول، أو منصة، أو حل للتجارة الإلكترونية مع ميزات متقدمة (مثل التعلم الآلي، الذكاء الاصطناعي، التحليلات)',
+                  'تعديلات غير محدودة ضمن النطاق',
+                  'تكاملات API شاملة وإعداد بنية تحتية سحابية',
+                  'مدة تطوير من 3 إلى 6 أشهر',
+                  'دعم وصيانة لأكثر من 6 أشهر بعد الإطلاق',
+                  'تحسين شامل لمحركات البحث (SEO) والأداء',
+                  'إعداد استضافة مخصصة وبنية تحتية سحابية',
+                ]}
+
+                
+              />
+            </div>
+            <div data-aos="fade-up-left">
+              
+
+            <PricingCard
+                price="$5000"
+                title="حزمة النمو"
+                features={[
+                  'تطبيق مخصص للهاتف المحمول أو موقع إلكتروني متكامل بالكامل مع تكامل API (مثل بوابات الدفع، CRM)',
+                  'تصميم واجهة مستخدم وتجربة مستخدم مخصص',
+                  'حتى 4 تعديلات',
+                  'مدة تطوير من 1 إلى 2 شهر',
+                  'دعم لمدة 1-2 شهر بعد الإطلاق',
+                  'تحسين محركات البحث (SEO) والأداء',
+                  'إعداد الاستضافة'
+                ]}
+              />
+            </div>
+          </div>
       <section className="grid place-items-center gap-16">
         <div className="sm:w-10/12 md:w-8/12 lg:w-6/12 text-center" data-aos="zoom-in-up">
           <PageSentence
-            badge="FAQ"
-            title="Frequently asked questions, maybe the same as yours"
+            badge="الأسئلة المتكررة"
+            title="أسئلة شائعة، ربما تكون مثل أسئلتك"
           />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-y-12 md:gap-x-7">
@@ -108,11 +120,12 @@ const Pricing = () => {
             )
           })}
         </div>
-        <div className="text-white text-base font-medium text-center">
-          {`Didn't find an answer? `}
+        <div className=" text-primary text-base font-medium text-center ">
+                <Link href={'/quote'}>لا تتردد في السؤال </Link>
+
           <div className="sm:hidden"></div>
-          <div className="text-primary inline select-none">
-            <Link href={'/quote'}>Do not hesitate to ask!</Link>
+          <div className="text-white inline select-none">
+          {`لم تجد الاجابه ؟ `}     
           </div>
         </div>
       </section>
